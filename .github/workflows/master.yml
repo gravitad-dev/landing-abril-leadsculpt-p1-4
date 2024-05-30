@@ -27,7 +27,7 @@ jobs:
       run: ls -la
 
     - name: 📂 Verify dist directory
-      run: ls -la dist/
+      run: ls -la app/
 
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
